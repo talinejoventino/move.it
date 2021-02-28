@@ -66,10 +66,17 @@
 .startCountdownActive:not(:disabled):hover{
     background: var(--red);
     color: var(--white);
+    outline-color: rgb(252, 184, 172);
 }
 
 .startCountdown:disabled{
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+}
+
+@media(max-width: 425px){
+    .countdownContainer > div{
+        font-size: 6.5rem;
+    }
 }

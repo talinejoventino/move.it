@@ -13,6 +13,7 @@
     text-align: center;
 }
 
+
 .ChallengeNotActive{
     display: flex;
     flex-direction: column;
@@ -101,4 +102,13 @@
 
 .ChallengeActive footer button:hover{
     filter: brightness(0.9);
+}
+
+@media(max-width: 425px){
+    .ChallengeBoxContainer{
+        margin: 2rem 0 2rem;
+    }
+    .ChallengeActive main{
+        margin: 1rem 0 1rem;
+    }
 }
